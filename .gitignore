@@ -1,0 +1,7 @@
+work/
+data/SRTM-1/zips
+data/shapefiles/mariana_*
+groundnet/aptdat2sqlite.py
+groundnet/sqlite2xml.py
+output/
+.directory
