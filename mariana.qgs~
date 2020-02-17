@@ -20,41 +20,41 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" providerKey="ogr" id="mariana_osm_lines_55cc2a27_91c6_48d7_883c_ac8b65eee225" source="./data/shapefiles/mariana_osm.osm|layername=lines" name="mariana_osm lines">
+    <layer-tree-layer checked="Qt::Unchecked" name="mariana_osm multipolygons" expanded="1" providerKey="ogr" id="mariana_osm_multipolygons_8bb45c32_147b_4e91_920c_fb042e85d4e6" source="./data/shapefiles/mariana_osm.osm|layername=multipolygons">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" providerKey="ogr" id="mariana_polygons_31201826_2589_48c0_98cb_8f1d55cddc86" source="./data/shapefiles/mariana_polygons.shp|layername=mariana_polygons" name="mariana_polygons">
+    <layer-tree-layer checked="Qt::Checked" name="mariana_lines" expanded="1" providerKey="ogr" id="mariana_lines_44157c3e_b035_443d_9d34_8d51a86d3e48" source="./data/shapefiles/mariana_lines.shp|layername=mariana_lines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" providerKey="ogr" id="mariana_lines_9b5d3689_cbab_4cd1_a333_8754412c2867" source="./data/shapefiles/mariana_lines.shp|layername=mariana_lines" name="mariana_lines">
+    <layer-tree-layer checked="Qt::Checked" name="mariana_polygons" expanded="1" providerKey="ogr" id="mariana_polygons_332a5a64_8a43_4da1_93f1_23c426de6a96" source="./data/shapefiles/mariana_polygons.shp|layername=mariana_polygons">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" providerKey="ogr" id="mariana_osm_multipolygons_9b746ceb_4771_46c0_9260_e39a1b81006e" source="./data/shapefiles/mariana_osm.osm|layername=multipolygons" name="mariana_osm multipolygons">
+    <layer-tree-layer checked="Qt::Unchecked" name="mariana_osm lines" expanded="1" providerKey="ogr" id="mariana_osm_lines_19a16c8a_ce8b_4cf5_b6e7_5975ac699a6a" source="./data/shapefiles/mariana_osm.osm|layername=lines">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
-      <item>mariana_osm_lines_55cc2a27_91c6_48d7_883c_ac8b65eee225</item>
-      <item>mariana_osm_multipolygons_9b746ceb_4771_46c0_9260_e39a1b81006e</item>
-      <item>mariana_lines_9b5d3689_cbab_4cd1_a333_8754412c2867</item>
-      <item>mariana_polygons_31201826_2589_48c0_98cb_8f1d55cddc86</item>
+      <item>mariana_osm_multipolygons_8bb45c32_147b_4e91_920c_fb042e85d4e6</item>
+      <item>mariana_osm_lines_19a16c8a_ce8b_4cf5_b6e7_5975ac699a6a</item>
+      <item>mariana_polygons_332a5a64_8a43_4da1_93f1_23c426de6a96</item>
+      <item>mariana_lines_44157c3e_b035_443d_9d34_8d51a86d3e48</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings enabled="0" type="1" tolerance="12" unit="1" mode="2" intersection-snapping="0">
+  <snapping-settings type="1" tolerance="12" unit="1" intersection-snapping="0" enabled="0" mode="2">
     <individual-layer-settings>
-      <layer-setting enabled="0" type="1" tolerance="12" units="1" id="mariana_osm_lines_55cc2a27_91c6_48d7_883c_ac8b65eee225"/>
-      <layer-setting enabled="0" type="1" tolerance="12" units="1" id="mariana_lines_9b5d3689_cbab_4cd1_a333_8754412c2867"/>
-      <layer-setting enabled="0" type="1" tolerance="12" units="1" id="mariana_polygons_31201826_2589_48c0_98cb_8f1d55cddc86"/>
-      <layer-setting enabled="0" type="1" tolerance="12" units="1" id="mariana_osm_multipolygons_9b746ceb_4771_46c0_9260_e39a1b81006e"/>
+      <layer-setting type="1" tolerance="12" units="1" enabled="0" id="mariana_osm_lines_19a16c8a_ce8b_4cf5_b6e7_5975ac699a6a"/>
+      <layer-setting type="1" tolerance="12" units="1" enabled="0" id="mariana_lines_44157c3e_b035_443d_9d34_8d51a86d3e48"/>
+      <layer-setting type="1" tolerance="12" units="1" enabled="0" id="mariana_polygons_332a5a64_8a43_4da1_93f1_23c426de6a96"/>
+      <layer-setting type="1" tolerance="12" units="1" enabled="0" id="mariana_osm_multipolygons_8bb45c32_147b_4e91_920c_fb042e85d4e6"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
-  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>144.53084559904849016</xmin>
-      <ymin>11.31707945501729995</ymin>
-      <xmax>146.4518205990484887</xmax>
-      <ymax>15.70135445501730231</ymax>
+      <xmin>144.44999999999998863</xmin>
+      <ymin>12.80000000000000071</ymin>
+      <xmax>146.55000000000001137</xmax>
+      <ymax>21.19999999999999929</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -75,30 +75,30 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" showFeatureCount="0" open="true" name="mariana_osm lines">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="mariana_osm_lines_55cc2a27_91c6_48d7_883c_ac8b65eee225" visible="1" isInOverview="0"/>
+    <legendlayer checked="Qt::Unchecked" showFeatureCount="0" name="mariana_osm multipolygons" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="mariana_osm_multipolygons_8bb45c32_147b_4e91_920c_fb042e85d4e6" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" showFeatureCount="0" open="true" name="mariana_polygons">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="mariana_polygons_31201826_2589_48c0_98cb_8f1d55cddc86" visible="1" isInOverview="0"/>
+    <legendlayer checked="Qt::Checked" showFeatureCount="0" name="mariana_lines" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="mariana_lines_44157c3e_b035_443d_9d34_8d51a86d3e48" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" showFeatureCount="0" open="true" name="mariana_lines">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="mariana_lines_9b5d3689_cbab_4cd1_a333_8754412c2867" visible="1" isInOverview="0"/>
+    <legendlayer checked="Qt::Checked" showFeatureCount="0" name="mariana_polygons" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="mariana_polygons_332a5a64_8a43_4da1_93f1_23c426de6a96" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" showFeatureCount="0" open="true" name="mariana_osm multipolygons">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="mariana_osm_multipolygons_9b746ceb_4771_46c0_9260_e39a1b81006e" visible="1" isInOverview="0"/>
+    <legendlayer checked="Qt::Unchecked" showFeatureCount="0" name="mariana_osm lines" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="mariana_osm_lines_19a16c8a_ce8b_4cf5_b6e7_5975ac699a6a" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
-  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
       <xmin>0</xmin>
@@ -123,7 +123,7 @@
     <rendermaptile>0</rendermaptile>
     <expressionContextScope/>
   </mapcanvas>
-  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
       <xmin>0</xmin>
@@ -148,7 +148,7 @@
     <rendermaptile>0</rendermaptile>
     <expressionContextScope/>
   </mapcanvas>
-  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
       <xmin>0</xmin>
@@ -174,14 +174,14 @@
     <expressionContextScope/>
   </mapcanvas>
   <projectlayers>
-    <maplayer wkbType="MultiLineString" simplifyLocal="1" autoRefreshEnabled="0" readOnly="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" geometry="Line" type="vector" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" geometry="Line" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" labelsEnabled="0" type="vector" refreshOnNotifyEnabled="0" minScale="1e+8" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" wkbType="MultiLineString" refreshOnNotifyMessage="" maxScale="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0">
       <extent>
         <xmin>144.61311399999999594</xmin>
         <ymin>13.2302136000000008</ymin>
         <xmax>145.90936500000000819</xmax>
         <ymax>20.55373020000000039</ymax>
       </extent>
-      <id>mariana_lines_9b5d3689_cbab_4cd1_a333_8754412c2867</id>
+      <id>mariana_lines_44157c3e_b035_443d_9d34_8d51a86d3e48</id>
       <datasource>./data/shapefiles/mariana_lines.shp|layername=mariana_lines</datasource>
       <keywordList>
         <value></value>
@@ -240,31 +240,31 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="line" clip_to_extent="1" force_rhr="0" alpha="1" name="0">
-            <layer enabled="1" pass="0" locked="0" class="SimpleLine">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="231,113,72,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol type="line" clip_to_extent="1" force_rhr="0" name="0" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="114,155,111,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -349,39 +349,39 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="osm_id" index="0" name=""/>
-        <alias field="name" index="1" name=""/>
-        <alias field="highway" index="2" name=""/>
-        <alias field="waterway" index="3" name=""/>
-        <alias field="aerialway" index="4" name=""/>
-        <alias field="barrier" index="5" name=""/>
-        <alias field="man_made" index="6" name=""/>
-        <alias field="z_order" index="7" name=""/>
-        <alias field="other_tags" index="8" name=""/>
+        <alias index="0" name="" field="osm_id"/>
+        <alias index="1" name="" field="name"/>
+        <alias index="2" name="" field="highway"/>
+        <alias index="3" name="" field="waterway"/>
+        <alias index="4" name="" field="aerialway"/>
+        <alias index="5" name="" field="barrier"/>
+        <alias index="6" name="" field="man_made"/>
+        <alias index="7" name="" field="z_order"/>
+        <alias index="8" name="" field="other_tags"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="osm_id"/>
-        <default expression="" applyOnUpdate="0" field="name"/>
-        <default expression="" applyOnUpdate="0" field="highway"/>
-        <default expression="" applyOnUpdate="0" field="waterway"/>
-        <default expression="" applyOnUpdate="0" field="aerialway"/>
-        <default expression="" applyOnUpdate="0" field="barrier"/>
-        <default expression="" applyOnUpdate="0" field="man_made"/>
-        <default expression="" applyOnUpdate="0" field="z_order"/>
-        <default expression="" applyOnUpdate="0" field="other_tags"/>
+        <default applyOnUpdate="0" field="osm_id" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+        <default applyOnUpdate="0" field="highway" expression=""/>
+        <default applyOnUpdate="0" field="waterway" expression=""/>
+        <default applyOnUpdate="0" field="aerialway" expression=""/>
+        <default applyOnUpdate="0" field="barrier" expression=""/>
+        <default applyOnUpdate="0" field="man_made" expression=""/>
+        <default applyOnUpdate="0" field="z_order" expression=""/>
+        <default applyOnUpdate="0" field="other_tags" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" field="osm_id" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="name" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="highway" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="waterway" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="aerialway" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="barrier" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="man_made" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="z_order" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="other_tags" notnull_strength="0" constraints="0"/>
+        <constraint constraints="0" field="osm_id" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="name" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="highway" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="waterway" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="aerialway" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="barrier" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="man_made" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="z_order" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="other_tags" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="osm_id" desc="" exp=""/>
@@ -398,7 +398,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -419,14 +419,14 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer wkbType="LineString" simplifyLocal="1" autoRefreshEnabled="0" readOnly="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" geometry="Line" type="vector" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" geometry="Line" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" labelsEnabled="0" type="vector" refreshOnNotifyEnabled="0" minScale="1e+8" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" wkbType="LineString" refreshOnNotifyMessage="" maxScale="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0">
       <extent>
-        <xmin>142.97599999999999909</xmin>
-        <ymin>12.6509999999999998</ymin>
-        <xmax>146.63499999999999091</xmax>
-        <ymax>21.00199999999999889</ymax>
+        <xmin>144.5</xmin>
+        <ymin>13</ymin>
+        <xmax>146.5</xmax>
+        <ymax>21</ymax>
       </extent>
-      <id>mariana_osm_lines_55cc2a27_91c6_48d7_883c_ac8b65eee225</id>
+      <id>mariana_osm_lines_19a16c8a_ce8b_4cf5_b6e7_5975ac699a6a</id>
       <datasource>./data/shapefiles/mariana_osm.osm|layername=lines</datasource>
       <keywordList>
         <value></value>
@@ -485,31 +485,31 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="line" clip_to_extent="1" force_rhr="0" alpha="1" name="0">
-            <layer enabled="1" pass="0" locked="0" class="SimpleLine">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,158,23,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <symbol type="line" clip_to_extent="1" force_rhr="0" name="0" alpha="1">
+            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="141,90,153,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -594,39 +594,39 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="osm_id" index="0" name=""/>
-        <alias field="name" index="1" name=""/>
-        <alias field="highway" index="2" name=""/>
-        <alias field="waterway" index="3" name=""/>
-        <alias field="aerialway" index="4" name=""/>
-        <alias field="barrier" index="5" name=""/>
-        <alias field="man_made" index="6" name=""/>
-        <alias field="z_order" index="7" name=""/>
-        <alias field="other_tags" index="8" name=""/>
+        <alias index="0" name="" field="osm_id"/>
+        <alias index="1" name="" field="name"/>
+        <alias index="2" name="" field="highway"/>
+        <alias index="3" name="" field="waterway"/>
+        <alias index="4" name="" field="aerialway"/>
+        <alias index="5" name="" field="barrier"/>
+        <alias index="6" name="" field="man_made"/>
+        <alias index="7" name="" field="z_order"/>
+        <alias index="8" name="" field="other_tags"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="osm_id"/>
-        <default expression="" applyOnUpdate="0" field="name"/>
-        <default expression="" applyOnUpdate="0" field="highway"/>
-        <default expression="" applyOnUpdate="0" field="waterway"/>
-        <default expression="" applyOnUpdate="0" field="aerialway"/>
-        <default expression="" applyOnUpdate="0" field="barrier"/>
-        <default expression="" applyOnUpdate="0" field="man_made"/>
-        <default expression="" applyOnUpdate="0" field="z_order"/>
-        <default expression="" applyOnUpdate="0" field="other_tags"/>
+        <default applyOnUpdate="0" field="osm_id" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+        <default applyOnUpdate="0" field="highway" expression=""/>
+        <default applyOnUpdate="0" field="waterway" expression=""/>
+        <default applyOnUpdate="0" field="aerialway" expression=""/>
+        <default applyOnUpdate="0" field="barrier" expression=""/>
+        <default applyOnUpdate="0" field="man_made" expression=""/>
+        <default applyOnUpdate="0" field="z_order" expression=""/>
+        <default applyOnUpdate="0" field="other_tags" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" field="osm_id" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="name" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="highway" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="waterway" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="aerialway" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="barrier" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="man_made" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="z_order" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="other_tags" notnull_strength="0" constraints="0"/>
+        <constraint constraints="0" field="osm_id" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="name" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="highway" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="waterway" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="aerialway" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="barrier" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="man_made" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="z_order" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="other_tags" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="osm_id" desc="" exp=""/>
@@ -643,7 +643,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -664,14 +664,14 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer wkbType="MultiPolygon" simplifyLocal="1" autoRefreshEnabled="0" readOnly="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" geometry="Polygon" type="vector" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" labelsEnabled="0" type="vector" refreshOnNotifyEnabled="0" minScale="1e+8" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" wkbType="MultiPolygon" refreshOnNotifyMessage="" maxScale="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0">
       <extent>
-        <xmin>142.97599999999999909</xmin>
-        <ymin>12.6509999999999998</ymin>
-        <xmax>146.63499999999999091</xmax>
-        <ymax>21.00199999999999889</ymax>
+        <xmin>144.5</xmin>
+        <ymin>13</ymin>
+        <xmax>146.5</xmax>
+        <ymax>21</ymax>
       </extent>
-      <id>mariana_osm_multipolygons_9b746ceb_4771_46c0_9260_e39a1b81006e</id>
+      <id>mariana_osm_multipolygons_8bb45c32_147b_4e91_920c_fb042e85d4e6</id>
       <datasource>./data/shapefiles/mariana_osm.osm|layername=multipolygons</datasource>
       <keywordList>
         <value></value>
@@ -730,26 +730,26 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" clip_to_extent="1" force_rhr="0" alpha="1" name="0">
-            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="183,72,75,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol type="fill" clip_to_extent="1" force_rhr="0" name="0" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="232,113,141,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -946,87 +946,87 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="osm_id" index="0" name=""/>
-        <alias field="osm_way_id" index="1" name=""/>
-        <alias field="name" index="2" name=""/>
-        <alias field="type" index="3" name=""/>
-        <alias field="aeroway" index="4" name=""/>
-        <alias field="amenity" index="5" name=""/>
-        <alias field="admin_level" index="6" name=""/>
-        <alias field="barrier" index="7" name=""/>
-        <alias field="boundary" index="8" name=""/>
-        <alias field="building" index="9" name=""/>
-        <alias field="craft" index="10" name=""/>
-        <alias field="geological" index="11" name=""/>
-        <alias field="historic" index="12" name=""/>
-        <alias field="land_area" index="13" name=""/>
-        <alias field="landuse" index="14" name=""/>
-        <alias field="leisure" index="15" name=""/>
-        <alias field="man_made" index="16" name=""/>
-        <alias field="military" index="17" name=""/>
-        <alias field="natural" index="18" name=""/>
-        <alias field="office" index="19" name=""/>
-        <alias field="place" index="20" name=""/>
-        <alias field="shop" index="21" name=""/>
-        <alias field="sport" index="22" name=""/>
-        <alias field="tourism" index="23" name=""/>
-        <alias field="other_tags" index="24" name=""/>
+        <alias index="0" name="" field="osm_id"/>
+        <alias index="1" name="" field="osm_way_id"/>
+        <alias index="2" name="" field="name"/>
+        <alias index="3" name="" field="type"/>
+        <alias index="4" name="" field="aeroway"/>
+        <alias index="5" name="" field="amenity"/>
+        <alias index="6" name="" field="admin_level"/>
+        <alias index="7" name="" field="barrier"/>
+        <alias index="8" name="" field="boundary"/>
+        <alias index="9" name="" field="building"/>
+        <alias index="10" name="" field="craft"/>
+        <alias index="11" name="" field="geological"/>
+        <alias index="12" name="" field="historic"/>
+        <alias index="13" name="" field="land_area"/>
+        <alias index="14" name="" field="landuse"/>
+        <alias index="15" name="" field="leisure"/>
+        <alias index="16" name="" field="man_made"/>
+        <alias index="17" name="" field="military"/>
+        <alias index="18" name="" field="natural"/>
+        <alias index="19" name="" field="office"/>
+        <alias index="20" name="" field="place"/>
+        <alias index="21" name="" field="shop"/>
+        <alias index="22" name="" field="sport"/>
+        <alias index="23" name="" field="tourism"/>
+        <alias index="24" name="" field="other_tags"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="osm_id"/>
-        <default expression="" applyOnUpdate="0" field="osm_way_id"/>
-        <default expression="" applyOnUpdate="0" field="name"/>
-        <default expression="" applyOnUpdate="0" field="type"/>
-        <default expression="" applyOnUpdate="0" field="aeroway"/>
-        <default expression="" applyOnUpdate="0" field="amenity"/>
-        <default expression="" applyOnUpdate="0" field="admin_level"/>
-        <default expression="" applyOnUpdate="0" field="barrier"/>
-        <default expression="" applyOnUpdate="0" field="boundary"/>
-        <default expression="" applyOnUpdate="0" field="building"/>
-        <default expression="" applyOnUpdate="0" field="craft"/>
-        <default expression="" applyOnUpdate="0" field="geological"/>
-        <default expression="" applyOnUpdate="0" field="historic"/>
-        <default expression="" applyOnUpdate="0" field="land_area"/>
-        <default expression="" applyOnUpdate="0" field="landuse"/>
-        <default expression="" applyOnUpdate="0" field="leisure"/>
-        <default expression="" applyOnUpdate="0" field="man_made"/>
-        <default expression="" applyOnUpdate="0" field="military"/>
-        <default expression="" applyOnUpdate="0" field="natural"/>
-        <default expression="" applyOnUpdate="0" field="office"/>
-        <default expression="" applyOnUpdate="0" field="place"/>
-        <default expression="" applyOnUpdate="0" field="shop"/>
-        <default expression="" applyOnUpdate="0" field="sport"/>
-        <default expression="" applyOnUpdate="0" field="tourism"/>
-        <default expression="" applyOnUpdate="0" field="other_tags"/>
+        <default applyOnUpdate="0" field="osm_id" expression=""/>
+        <default applyOnUpdate="0" field="osm_way_id" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+        <default applyOnUpdate="0" field="type" expression=""/>
+        <default applyOnUpdate="0" field="aeroway" expression=""/>
+        <default applyOnUpdate="0" field="amenity" expression=""/>
+        <default applyOnUpdate="0" field="admin_level" expression=""/>
+        <default applyOnUpdate="0" field="barrier" expression=""/>
+        <default applyOnUpdate="0" field="boundary" expression=""/>
+        <default applyOnUpdate="0" field="building" expression=""/>
+        <default applyOnUpdate="0" field="craft" expression=""/>
+        <default applyOnUpdate="0" field="geological" expression=""/>
+        <default applyOnUpdate="0" field="historic" expression=""/>
+        <default applyOnUpdate="0" field="land_area" expression=""/>
+        <default applyOnUpdate="0" field="landuse" expression=""/>
+        <default applyOnUpdate="0" field="leisure" expression=""/>
+        <default applyOnUpdate="0" field="man_made" expression=""/>
+        <default applyOnUpdate="0" field="military" expression=""/>
+        <default applyOnUpdate="0" field="natural" expression=""/>
+        <default applyOnUpdate="0" field="office" expression=""/>
+        <default applyOnUpdate="0" field="place" expression=""/>
+        <default applyOnUpdate="0" field="shop" expression=""/>
+        <default applyOnUpdate="0" field="sport" expression=""/>
+        <default applyOnUpdate="0" field="tourism" expression=""/>
+        <default applyOnUpdate="0" field="other_tags" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" field="osm_id" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="osm_way_id" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="name" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="type" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="aeroway" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="amenity" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="admin_level" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="barrier" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="boundary" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="building" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="craft" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="geological" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="historic" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="land_area" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="landuse" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="leisure" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="man_made" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="military" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="natural" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="office" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="place" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="shop" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="sport" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="tourism" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="other_tags" notnull_strength="0" constraints="0"/>
+        <constraint constraints="0" field="osm_id" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="osm_way_id" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="name" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="type" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="aeroway" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="amenity" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="admin_level" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="barrier" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="boundary" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="building" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="craft" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="geological" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="historic" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="land_area" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="landuse" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="leisure" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="man_made" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="military" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="natural" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="office" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="place" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shop" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="sport" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="tourism" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="other_tags" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="osm_id" desc="" exp=""/>
@@ -1059,7 +1059,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1080,14 +1080,14 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer wkbType="MultiPolygon" simplifyLocal="1" autoRefreshEnabled="0" readOnly="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+8" geometry="Polygon" type="vector" simplifyMaxScale="1" simplifyDrawingHints="1" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="0">
+    <maplayer hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0" labelsEnabled="0" type="vector" refreshOnNotifyEnabled="0" minScale="1e+8" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" wkbType="MultiPolygon" refreshOnNotifyMessage="" maxScale="0" styleCategories="AllStyleCategories" autoRefreshEnabled="0">
       <extent>
         <xmin>142.33194439999999759</xmin>
         <ymin>10.95833329999999961</ymin>
         <xmax>148.7138889000000006</xmax>
         <ymax>23.89305560000000028</ymax>
       </extent>
-      <id>mariana_polygons_31201826_2589_48c0_98cb_8f1d55cddc86</id>
+      <id>mariana_polygons_332a5a64_8a43_4da1_93f1_23c426de6a96</id>
       <datasource>./data/shapefiles/mariana_polygons.shp|layername=mariana_polygons</datasource>
       <keywordList>
         <value></value>
@@ -1146,26 +1146,26 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" clip_to_extent="1" force_rhr="0" alpha="1" name="0">
-            <layer enabled="1" pass="0" locked="0" class="SimpleFill">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="152,125,183,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol type="fill" clip_to_extent="1" force_rhr="0" name="0" alpha="1">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="243,166,178,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option type="QString" value="" name="name"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option type="QString" value="collection" name="type"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1362,87 +1362,87 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="osm_id" index="0" name=""/>
-        <alias field="osm_way_id" index="1" name=""/>
-        <alias field="name" index="2" name=""/>
-        <alias field="type" index="3" name=""/>
-        <alias field="aeroway" index="4" name=""/>
-        <alias field="amenity" index="5" name=""/>
-        <alias field="admin_leve" index="6" name=""/>
-        <alias field="barrier" index="7" name=""/>
-        <alias field="boundary" index="8" name=""/>
-        <alias field="building" index="9" name=""/>
-        <alias field="craft" index="10" name=""/>
-        <alias field="geological" index="11" name=""/>
-        <alias field="historic" index="12" name=""/>
-        <alias field="land_area" index="13" name=""/>
-        <alias field="landuse" index="14" name=""/>
-        <alias field="leisure" index="15" name=""/>
-        <alias field="man_made" index="16" name=""/>
-        <alias field="military" index="17" name=""/>
-        <alias field="natural" index="18" name=""/>
-        <alias field="office" index="19" name=""/>
-        <alias field="place" index="20" name=""/>
-        <alias field="shop" index="21" name=""/>
-        <alias field="sport" index="22" name=""/>
-        <alias field="tourism" index="23" name=""/>
-        <alias field="other_tags" index="24" name=""/>
+        <alias index="0" name="" field="osm_id"/>
+        <alias index="1" name="" field="osm_way_id"/>
+        <alias index="2" name="" field="name"/>
+        <alias index="3" name="" field="type"/>
+        <alias index="4" name="" field="aeroway"/>
+        <alias index="5" name="" field="amenity"/>
+        <alias index="6" name="" field="admin_leve"/>
+        <alias index="7" name="" field="barrier"/>
+        <alias index="8" name="" field="boundary"/>
+        <alias index="9" name="" field="building"/>
+        <alias index="10" name="" field="craft"/>
+        <alias index="11" name="" field="geological"/>
+        <alias index="12" name="" field="historic"/>
+        <alias index="13" name="" field="land_area"/>
+        <alias index="14" name="" field="landuse"/>
+        <alias index="15" name="" field="leisure"/>
+        <alias index="16" name="" field="man_made"/>
+        <alias index="17" name="" field="military"/>
+        <alias index="18" name="" field="natural"/>
+        <alias index="19" name="" field="office"/>
+        <alias index="20" name="" field="place"/>
+        <alias index="21" name="" field="shop"/>
+        <alias index="22" name="" field="sport"/>
+        <alias index="23" name="" field="tourism"/>
+        <alias index="24" name="" field="other_tags"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="osm_id"/>
-        <default expression="" applyOnUpdate="0" field="osm_way_id"/>
-        <default expression="" applyOnUpdate="0" field="name"/>
-        <default expression="" applyOnUpdate="0" field="type"/>
-        <default expression="" applyOnUpdate="0" field="aeroway"/>
-        <default expression="" applyOnUpdate="0" field="amenity"/>
-        <default expression="" applyOnUpdate="0" field="admin_leve"/>
-        <default expression="" applyOnUpdate="0" field="barrier"/>
-        <default expression="" applyOnUpdate="0" field="boundary"/>
-        <default expression="" applyOnUpdate="0" field="building"/>
-        <default expression="" applyOnUpdate="0" field="craft"/>
-        <default expression="" applyOnUpdate="0" field="geological"/>
-        <default expression="" applyOnUpdate="0" field="historic"/>
-        <default expression="" applyOnUpdate="0" field="land_area"/>
-        <default expression="" applyOnUpdate="0" field="landuse"/>
-        <default expression="" applyOnUpdate="0" field="leisure"/>
-        <default expression="" applyOnUpdate="0" field="man_made"/>
-        <default expression="" applyOnUpdate="0" field="military"/>
-        <default expression="" applyOnUpdate="0" field="natural"/>
-        <default expression="" applyOnUpdate="0" field="office"/>
-        <default expression="" applyOnUpdate="0" field="place"/>
-        <default expression="" applyOnUpdate="0" field="shop"/>
-        <default expression="" applyOnUpdate="0" field="sport"/>
-        <default expression="" applyOnUpdate="0" field="tourism"/>
-        <default expression="" applyOnUpdate="0" field="other_tags"/>
+        <default applyOnUpdate="0" field="osm_id" expression=""/>
+        <default applyOnUpdate="0" field="osm_way_id" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+        <default applyOnUpdate="0" field="type" expression=""/>
+        <default applyOnUpdate="0" field="aeroway" expression=""/>
+        <default applyOnUpdate="0" field="amenity" expression=""/>
+        <default applyOnUpdate="0" field="admin_leve" expression=""/>
+        <default applyOnUpdate="0" field="barrier" expression=""/>
+        <default applyOnUpdate="0" field="boundary" expression=""/>
+        <default applyOnUpdate="0" field="building" expression=""/>
+        <default applyOnUpdate="0" field="craft" expression=""/>
+        <default applyOnUpdate="0" field="geological" expression=""/>
+        <default applyOnUpdate="0" field="historic" expression=""/>
+        <default applyOnUpdate="0" field="land_area" expression=""/>
+        <default applyOnUpdate="0" field="landuse" expression=""/>
+        <default applyOnUpdate="0" field="leisure" expression=""/>
+        <default applyOnUpdate="0" field="man_made" expression=""/>
+        <default applyOnUpdate="0" field="military" expression=""/>
+        <default applyOnUpdate="0" field="natural" expression=""/>
+        <default applyOnUpdate="0" field="office" expression=""/>
+        <default applyOnUpdate="0" field="place" expression=""/>
+        <default applyOnUpdate="0" field="shop" expression=""/>
+        <default applyOnUpdate="0" field="sport" expression=""/>
+        <default applyOnUpdate="0" field="tourism" expression=""/>
+        <default applyOnUpdate="0" field="other_tags" expression=""/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" field="osm_id" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="osm_way_id" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="name" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="type" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="aeroway" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="amenity" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="admin_leve" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="barrier" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="boundary" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="building" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="craft" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="geological" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="historic" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="land_area" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="landuse" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="leisure" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="man_made" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="military" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="natural" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="office" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="place" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="shop" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="sport" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="tourism" notnull_strength="0" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" field="other_tags" notnull_strength="0" constraints="0"/>
+        <constraint constraints="0" field="osm_id" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="osm_way_id" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="name" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="type" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="aeroway" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="amenity" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="admin_leve" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="barrier" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="boundary" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="building" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="craft" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="geological" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="historic" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="land_area" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="landuse" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="leisure" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="man_made" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="military" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="natural" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="office" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="place" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="shop" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="sport" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="tourism" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" field="other_tags" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="osm_id" desc="" exp=""/>
@@ -1475,7 +1475,7 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1498,10 +1498,10 @@
     </maplayer>
   </projectlayers>
   <layerorder>
-    <layer id="mariana_osm_lines_55cc2a27_91c6_48d7_883c_ac8b65eee225"/>
-    <layer id="mariana_osm_multipolygons_9b746ceb_4771_46c0_9260_e39a1b81006e"/>
-    <layer id="mariana_lines_9b5d3689_cbab_4cd1_a333_8754412c2867"/>
-    <layer id="mariana_polygons_31201826_2589_48c0_98cb_8f1d55cddc86"/>
+    <layer id="mariana_osm_multipolygons_8bb45c32_147b_4e91_920c_fb042e85d4e6"/>
+    <layer id="mariana_osm_lines_19a16c8a_ce8b_4cf5_b6e7_5975ac699a6a"/>
+    <layer id="mariana_polygons_332a5a64_8a43_4da1_93f1_23c426de6a96"/>
+    <layer id="mariana_lines_44157c3e_b035_443d_9d34_8d51a86d3e48"/>
   </layerorder>
   <properties>
     <Gui>
